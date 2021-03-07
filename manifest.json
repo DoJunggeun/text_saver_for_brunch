@@ -1,0 +1,16 @@
+{
+  "name": "text_saver_for_brunch",
+  "description": "text_saver_for_brunch!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+
+}

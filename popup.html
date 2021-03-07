@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body{
+        width:350px;
+        padding:1rem;
+        font-size:14px;
+        text-align: center;
+      }
+      .btn{
+        margin-top:15px;
+        width:140px;
+        height:30px;
+        font-size: 16px;
+      }
+      .radio {
+        margin:5px;
+      }
+      h1 {
+        margin:10px;
+      }
+      #msg {
+        margin:4px;
+      }
+      a {
+        text-decoration: none;
+        color:black;
+      }
+      a:hover {
+        color:blue;
+      }
+      #result {
+        height:200px;
+        min-height: 100px;
+        width:100%;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Text Saver for <a href="https://brunch.co.kr/" target="_blank">Brunch</a></h1>
+    <div id="msg">드래그(선택)한 텍스트는<br/>팝업 실행시 자동으로 복사됩니다.<br/></div>
+    <hr/>
+    Platform :
+    <input class="radio" id="brunchradio" type="radio" name="platform" value="brunch"/>Brunch
+    <input class="radio" id="naverradio" type="radio" name="platform" value="naver"/>Naver Blog<br/>
+    <input class="btn" id="copyallbutton" type="button" value="문서 전체 복사"></input>
+    <input class="btn" id="copybutton" type="button" value="선택 영역 복사"></input><br/>
+    <h2>Copied text</h2>
+    <textarea id="result"></textarea>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
