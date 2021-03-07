@@ -7,3 +7,7 @@ Substack에 글을 쓸 때 브런치(brunch) 게시물을 자주 인용하는데
 - 드래그로 선택한 텍스트 복사
 - 브런치 게시물 전체 텍스트 복사
 - 네이버 블로그 게시물 전체 텍스트 복사 
+
+## What I learn (Practiced)
+- Chrome extensions development basics (set manifest, get permissions, some commands, etc.)
+- Basic DOM manipulation & Javascript for Web Browser
